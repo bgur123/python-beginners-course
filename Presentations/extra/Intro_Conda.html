@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Installation_wConda</title>
+<title>0_Intro_Programming_Conda</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -16262,54 +16262,37 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Installation-instructions">Installation instructions<a class="anchor-link" href="#Installation-instructions">&#182;</a></h1><h2 id="Contents">Contents<a class="anchor-link" href="#Contents">&#182;</a></h2><h3 id="1.-Anaconda-installation"><a href="#Anaconda">1. Anaconda installation</a><a class="anchor-link" href="#1.-Anaconda-installation">&#182;</a></h3><h3 id="2.-Setting-up-an-environment-"><a href="#Env">2. Setting up an <strong>environment</strong> </a><a class="anchor-link" href="#2.-Setting-up-an-environment-">&#182;</a></h3>
+<h1 id="Boost-your-python-with-Anaconda-and-Jupyter-Notebooks">Boost your python with Anaconda and Jupyter Notebooks<a class="anchor-link" href="#Boost-your-python-with-Anaconda-and-Jupyter-Notebooks">&#182;</a></h1><p>In this section we will see why we might want to work with Anaconda and notebooks.</p>
+<h2 id="Contents">Contents<a class="anchor-link" href="#Contents">&#182;</a></h2><h3 id="1.-Anaconda:-Boost-your-python"><a href="#Anaconda">1. <strong>Anaconda</strong>: Boost your python</a><a class="anchor-link" href="#1.-Anaconda:-Boost-your-python">&#182;</a></h3><h3 id="2.-Jupyter-Notebook:-A-platform-for-writing-and-working-with-Python."><a href="#Jupyter">2. <strong>Jupyter Notebook</strong>: A platform for writing and working with Python.</a><a class="anchor-link" href="#2.-Jupyter-Notebook:-A-platform-for-writing-and-working-with-Python.">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a name="Anaconda"></a></p>
-<h2 id="1.-Anaconda-installation">1. Anaconda installation<a class="anchor-link" href="#1.-Anaconda-installation">&#182;</a></h2><h3 id="Anaconda-is-the-most-convenient-way-to-start-and-use-python-for-scientists.">Anaconda is the most convenient way to start and use python for scientists.<a class="anchor-link" href="#Anaconda-is-the-most-convenient-way-to-start-and-use-python-for-scientists.">&#182;</a></h3><h3 id="Click-and-install-the-&quot;Python-3.7-version&quot;"><a href="https://www.anaconda.com/distribution/#download-section">Click and install the "Python 3.7 version"</a><a class="anchor-link" href="#Click-and-install-the-&quot;Python-3.7-version&quot;">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a name="Env"></a></p>
-<h2 id="2.-Setting-up-an-environment">2. Setting up an environment<a class="anchor-link" href="#2.-Setting-up-an-environment">&#182;</a></h2><ul>
-<li>Mostly, you will make use of <strong>python packages</strong> in your analysis workflow.</li>
-<li>Most python packages are made using other python packages :) And they depend on certain versions of these packages (called <strong>Dependencies</strong>, check the figure below).</li>
-<li>Different computers might have different versions of certain packages and even different versions of Python installed.(2.7 or 3.7, for example)<ul>
-<li>Thus, your analysis workflow might <strong>fail in a different computer</strong> (figure below).</li>
-<li>Or, two packages ,might have different dependencies and thus might fail in one computer.</li>
+<h2 id="Anaconda-">Anaconda <a name="Anaconda" /><a class="anchor-link" href="#Anaconda-">&#182;</a></h2><p><img src="../../Content/Media/anaconda.png" style="width: 300px"></p>
+<h3 id="What-is-it?">What is it?<a class="anchor-link" href="#What-is-it?">&#182;</a></h3><p>Anaconda is a python and R distribution (a collection of programs written in python and R). It provides you with almost everything you need for scientific computing.</p>
+<h3 id="What-does-it-contain?">What does it contain?<a class="anchor-link" href="#What-does-it-contain?">&#182;</a></h3><ul>
+<li>The core <strong>Python language</strong></li>
 </ul>
-</li>
-<li>To overcome this we can organize packages into <strong>ENVIRONMENTS</strong> which are basically isolated folders in your computer. In an environment you can install the required dependencies of each program separately so they don't mix.
-<img src="../../Content/Media/environments_bg.png" style="width: 600px"/></li>
+<ul>
+<li>100+ Python <strong>"packages"</strong> (or <strong>libraries</strong> which are collections of codes that someone wrote for achieving a certain set of tasks)</li>
 </ul>
-<p>Now that we learned about environments, let's get going with the rest. Now we have two options for using conda:</p>
-<h3 id="2.1.-Using-the-desktop-app:-Anaconda-Navigator">2.1. Using the desktop app: <a href="#Nav">Anaconda Navigator</a><a class="anchor-link" href="#2.1.-Using-the-desktop-app:-Anaconda-Navigator">&#182;</a></h3><h3 id="2.2.-Using-the-command-line:-MAC---Windows">2.2. Using the command line: <a href="#TermMac">MAC</a> - <a href="#TermWin">Windows</a><a class="anchor-link" href="#2.2.-Using-the-command-line:-MAC---Windows">&#182;</a></h3>
+<ul>
+<li>Apps where you can write and run code. These are called <strong>"IDE"s</strong> (Integrated Development Environment). The one we will use is <strong>Jupyter Notebook</strong>.</li>
+</ul>
+<ul>
+<li><strong>conda</strong>, Anaconda's own package manager, used for updating Anaconda and packages. A package manager lets you <strong>download, store and organize</strong> packages very easily. </li>
+</ul>
+<h3 id="Summary:-Anaconda-is-the-most-convenient-way-to-start-and-use-python-for-scientists.">Summary: <strong>Anaconda is the most convenient way to start and use python for scientists.</strong><a class="anchor-link" href="#Summary:-Anaconda-is-the-most-convenient-way-to-start-and-use-python-for-scientists.">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a name="Nav"></a></p>
-<h3 id="2.1.-Using-Anaconda-Navigator-(User-interface)">2.1. Using Anaconda Navigator (User interface)<a class="anchor-link" href="#2.1.-Using-Anaconda-Navigator-(User-interface)">&#182;</a></h3><p>Open up "Anaconda Navigator" (You can search for it in the searchbar).
-Many applications, including Jupyter notebooks, are availeble in the navigator by default, but you need to install them first.</p>
-<p>Navigator is an easy, point-and-click way to work with packages and environments without needing to type conda commands in a terminal window. You can use it to find the packages you want, install them in an environment, run the packages, and update them, all inside Navigator.</p>
-<ol>
-<li>In Navigator, click the Environments tab, then click the Create button. The Create new environment dialog box appears.</li>
-<li>In the Environment name field, type a descriptive name for your environment (e.g., python_intro_course_environment), and select Python version 3.7.</li>
-<li>In Navigator, click the Home tab, select your environment at "Application on", and click to INSTALL Jypyter Notebook.</li>
-<li>LAUNCH Jupyter Notebook.</li>
-</ol>
-<p>It should open up a browser which will show you some directories that are located in your computer. Here navigate to the directory where you downloaded our course material.</p>
-<p>To learn much more,
-go to: <a href="https://docs.anaconda.com/anaconda/navigator/">https://docs.anaconda.com/anaconda/navigator/</a></p>
+<h2 id="Jupyter-Notebook-">Jupyter Notebook <a name="Jupyter" /><a class="anchor-link" href="#Jupyter-Notebook-">&#182;</a></h2><p><img src="../../Content/Media/jupyter.png" style="width: 200px"></p>
+<p>The so called "Jupyter Notebook" app allows us to write formatted text together with executable code. We can do this dynamically so we can observe how a written script is developed sequentially. Throughout our course, we will be working on Jupyter Notebook. We will learn more about it later.</p>
 
 </div>
 </div>
@@ -16317,45 +16300,7 @@ go to: <a href="https://docs.anaconda.com/anaconda/navigator/">https://docs.anac
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a name="TermMac"></a></p>
-<h3 id="2.2.-Using-the-terminal:-Mac-OS-X">2.2. Using the terminal: Mac OS X<a class="anchor-link" href="#2.2.-Using-the-terminal:-Mac-OS-X">&#182;</a></h3><p>Open up <strong>"Terminal"</strong> (You can search for it in the searchbar). Here we will type commands in order to do some stuff. In this tutorial (also probably in your own terminal) the commands you will write will start with either <strong>"$" or "%"</strong>. Let's see if conda is installed by writing the following command:</p>
-<p><em>$conda</em></p>
-<p>press Enter and just after your typed command you will see:</p>
-<p><em>'''
-usage: conda [-h] [-V] command ...
-conda is a tool for managing and deploying applications, environments and packages.
-Options:
-'''</em></p>
-<p>This means that you have successfully installed conda.</p>
-<p>Now you will type things in the terminal in order to create a new environment and install the required packages in it. Type the following:</p>
-<p><em>$conda create -n python_intro_course_environment</em></p>
-<p>This will create a new environment named "python_intro_course_environment (name is determined with whatever follows the '-n' within that line of code). We now created the environment but we're not inside yet so let's go in this environment by  typing:</p>
-<p><em>$conda activate python_intro_course_environment</em></p>
-<p>Are we in? We can check it by looking at the leftmost part of the command line. It should show (python_intro_course_environment).</p>
-<p>Now let's install Jupyter Notebook package. First let's search if there is any package named jupyter.</p>
-<p><em>$conda search jupyter</em></p>
-<p>It will give us a bunch of different jupyter packages but we don't need to worry about which ones to install since conda takes care of that automatically. The command for installing a package with conda is "install".</p>
-<p><em>$conda install jupyter</em></p>
-<p>after that we can run jupyter notebook:</p>
-<p><em>$jupyter notebook</em></p>
-<p>It should open up a browser which will show you some directories that are located in your computer. Here navigate to the directory where you downloaded our course material.</p>
-<p><a name="Env"></a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a name="TermWin"></a></p>
-<h3 id="2.3-Using-the-terminal:-Windows">2.3 Using the terminal: Windows<a class="anchor-link" href="#2.3-Using-the-terminal:-Windows">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-
+<h3 id="Okay-then,-let's-get-started:">Okay then, let's get started:<a class="anchor-link" href="#Okay-then,-let's-get-started:">&#182;</a></h3><h1 id="Installation-instructions-for-Anaconda-and-Jupyter-notebook"><a href="Conda_Installation.html">Installation instructions for Anaconda and Jupyter notebook</a><a class="anchor-link" href="#Installation-instructions-for-Anaconda-and-Jupyter-notebook">&#182;</a></h1>
 </div>
 </div>
 </div>
