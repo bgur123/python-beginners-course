@@ -5,7 +5,7 @@ Our aim is to introduce programming with Python since it is an essential tool fo
 ## Introduction - Basics of programming
 | View |
 | ---- |
-|[![Open in reader](https://img.shields.io/badge/read-html-red)](https://htmlpreview.github.io/?https://github.com/bgur123/python-beginners-course/blob/master/Presentations/extra/0_Intro_Programming.html)|
+|[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/?https://github.com/bgur123/python-beginners-course/blob/master/Presentations/extra/0_Intro_Programming.ipynb)|
 
 ## Tutorial 1 - Let's start programming
 | Run | View |
@@ -15,4 +15,4 @@ Our aim is to introduce programming with Python since it is an essential tool fo
 ## Extra 1 - Conda and Anaconda
 | View |
 | ---- |
-|[![Open in viewer](https://img.shields.io/badge/read-html-red)](https://htmlpreview.github.io/?https://github.com/bgur123/python-beginners-course/blob/master/Presentations/extra/Intro_Conda.html)|
+|[![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/?https://github.com/bgur123/python-beginners-course/blob/master/Presentations/extra/Intro_Conda.ipynb)|
